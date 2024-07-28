@@ -2,7 +2,7 @@ channels:
   - conda-forge
 dependencies:
   - python=3.12
-  - fastapi
+  #- fastapi
   - uvicorn
   - sqlalchemy
   - zstandard
@@ -11,6 +11,6 @@ dependencies:
   - tabulate
   - importlib_resources
   - click
-  - libblas=*=*openblas
+  #- libblas=*=*openblas
   # linux-only
   - _openmp_mutex=*=*_llvm
