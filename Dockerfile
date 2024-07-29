@@ -24,6 +24,7 @@ RUN apt-get update && apt-get install --no-install-recommends -y \
     neovim \
     micro \
     ninja-build \
+    texlive \
     texlive-latex-base \
     texlive-latex-extra \
     texlive-fonts-extra \
