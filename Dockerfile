@@ -27,6 +27,7 @@ RUN apt-get update && apt-get install --no-install-recommends -y \
     texlive-latex-base \
     texlive-latex-extra \
     texlive-fonts-extra \
+    texlive-fonts-recommended \
     lmodern \
     && echo "apt-get done" \
 #    && rm -rf /var/lib/apt/lists/* \
